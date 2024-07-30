@@ -23,40 +23,70 @@ The SQL script to create the tables and relationships:
 
 
 -- Create Suppliers table
+
 CREATE TABLE Suppliers (
     SupplierID int PRIMARY KEY IDENTITY(1,1),
+    
     CompanyName nvarchar(50),
+    
     ContactName nvarchar(50),
+    
     ContactTitle nvarchar(30),
+    
     Address nvarchar(50),
+    
     City nvarchar(50),
+    
     Region nvarchar(50),
+    
     PostalCode nvarchar(10),
+    
     Country nvarchar(50),
+    
     Phone nvarchar(24),
+    
     Fax nvarchar(24),
+    
     HomePage nvarchar(100)
 );
 
 -- Create Employees table
+
 CREATE TABLE Employees (
     EmployeeID int PRIMARY KEY IDENTITY(1,1),
+    
     LastName nvarchar(50),
+    
     FirstName nvarchar(50),
+    
     Title nvarchar(30),
+    
     TitleOfCourtesy nvarchar(25),
+    
     BirthDate date,
+    
     HireDate date,
+    
     Address nvarchar(50),
+    
     City nvarchar(50),
+    
     Region nvarchar(50),
+    
     PostalCode nvarchar(10),
+    
     Country nvarchar(50),
+    
     HomePhone nvarchar(24),
+    
     Extension nvarchar(10),
+    
     Notes nvarchar(MAX),
+    
     ReportsTo int,
+    
     PhotoPath nvarchar(255),
+    
     FOREIGN KEY (ReportsTo) REFERENCES Employees(EmployeeID)
 );
 
