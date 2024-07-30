@@ -93,10 +93,13 @@ CREATE TABLE Employees (
 -- Create other tables similarly based on the ER diagram
 
 Populating the Database
+
 INSERT INTO Suppliers (CompanyName, ContactName, ...)
+
 VALUES ('Supplier1', 'Contact1', ...);
 
 INSERT INTO Employees (LastName, FirstName, ...)
+
 VALUES ('Smith', 'John', ...)
 
 Note: Replace the placeholder values with your desired data.
