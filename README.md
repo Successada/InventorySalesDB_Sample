@@ -105,11 +105,14 @@ VALUES ('Smith', 'John', ...)
 Note: Replace the placeholder values with your desired data.
 
 Additional Considerations
-This is a basic example. Real-world databases would require additional considerations like data types, indexing, constraints, and normalization.
+
+This is a basic example. 
+Real-world databases would require additional considerations like data types, indexing, constraints, and normalization.
 The provided data is for demonstration purposes only.
 Consider using more realistic data for your practice projects.
 
 Conclusion
+
 This repository serves as a starting point for building database applications. 
 Feel free to expand on this foundation by adding more tables, relationships, and data to suit your specific needs.
 
